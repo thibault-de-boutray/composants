@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" rx="42" fill="#f8fafc"/>
+  <rect x="182" y="132" width="276" height="216" rx="22" fill="#111827"/>
+  <path d="M300 132a20 20 0 0 0 40 0" fill="#f8fafc"/>
+  <g fill="#cbd5e1">
+    <rect x="132" y="164" width="58" height="16" rx="8"/><rect x="132" y="216" width="58" height="16" rx="8"/><rect x="132" y="268" width="58" height="16" rx="8"/><rect x="132" y="320" width="58" height="16" rx="8"/>
+    <rect x="450" y="164" width="58" height="16" rx="8"/><rect x="450" y="216" width="58" height="16" rx="8"/><rect x="450" y="268" width="58" height="16" rx="8"/><rect x="450" y="320" width="58" height="16" rx="8"/>
+  </g>
+  <text x="320" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#e5e7eb">DIP-8</text>
+  <text x="320" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#94a3b8">IC</text>
+</svg>

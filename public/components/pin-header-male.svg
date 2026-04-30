@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" rx="42" fill="#f8fafc"/>
+  <rect x="120" y="220" width="400" height="46" rx="12" fill="#111827"/>
+  <g fill="#d1d5db">
+    <rect x="145" y="112" width="16" height="126" rx="8"/><rect x="190" y="112" width="16" height="126" rx="8"/><rect x="235" y="112" width="16" height="126" rx="8"/><rect x="280" y="112" width="16" height="126" rx="8"/><rect x="325" y="112" width="16" height="126" rx="8"/><rect x="370" y="112" width="16" height="126" rx="8"/><rect x="415" y="112" width="16" height="126" rx="8"/><rect x="460" y="112" width="16" height="126" rx="8"/>
+    <rect x="145" y="250" width="16" height="118" rx="8"/><rect x="190" y="250" width="16" height="118" rx="8"/><rect x="235" y="250" width="16" height="118" rx="8"/><rect x="280" y="250" width="16" height="118" rx="8"/><rect x="325" y="250" width="16" height="118" rx="8"/><rect x="370" y="250" width="16" height="118" rx="8"/><rect x="415" y="250" width="16" height="118" rx="8"/><rect x="460" y="250" width="16" height="118" rx="8"/>
+  </g>
+  <text x="320" y="424" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#334155">1x40 MALE 2.54mm</text>
+</svg>

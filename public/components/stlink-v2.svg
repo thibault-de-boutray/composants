@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" rx="42" fill="#f8fafc"/>
+  <rect x="236" y="76" width="168" height="328" rx="40" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="8"/>
+  <rect x="266" y="112" width="108" height="48" rx="8" fill="#111827"/>
+  <rect x="284" y="344" width="72" height="34" rx="8" fill="#94a3b8"/>
+  <path d="M276 206h88l-18 78h-52z" fill="#2563eb"/>
+  <text x="320" y="256" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#fff">ST</text>
+  <text x="320" y="436" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#334155">ST-LINK/V2</text>
+</svg>

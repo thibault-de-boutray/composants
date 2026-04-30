@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" rx="42" fill="#f8fafc"/>
+  <rect x="174" y="82" width="292" height="316" rx="22" fill="#111827"/>
+  <path d="M300 82a20 20 0 0 0 40 0" fill="#f8fafc"/>
+  <g fill="#cbd5e1">
+    <rect x="124" y="104" width="58" height="12" rx="6"/><rect x="124" y="139" width="58" height="12" rx="6"/><rect x="124" y="174" width="58" height="12" rx="6"/><rect x="124" y="209" width="58" height="12" rx="6"/><rect x="124" y="244" width="58" height="12" rx="6"/><rect x="124" y="279" width="58" height="12" rx="6"/><rect x="124" y="314" width="58" height="12" rx="6"/><rect x="124" y="349" width="58" height="12" rx="6"/><rect x="124" y="384" width="58" height="12" rx="6"/>
+    <rect x="458" y="104" width="58" height="12" rx="6"/><rect x="458" y="139" width="58" height="12" rx="6"/><rect x="458" y="174" width="58" height="12" rx="6"/><rect x="458" y="209" width="58" height="12" rx="6"/><rect x="458" y="244" width="58" height="12" rx="6"/><rect x="458" y="279" width="58" height="12" rx="6"/><rect x="458" y="314" width="58" height="12" rx="6"/><rect x="458" y="349" width="58" height="12" rx="6"/><rect x="458" y="384" width="58" height="12" rx="6"/>
+  </g>
+  <text x="320" y="244" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#e5e7eb">DIP-18</text>
+  <text x="320" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#94a3b8">IC</text>
+</svg>
