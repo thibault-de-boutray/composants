@@ -32,7 +32,7 @@ const researchedComponents = [
     category: 'Circuit integre audio',
     quantity: 10,
     description: 'Amplificateur audio basse tension en boitier DIP-8, utile pour petits haut-parleurs et montages audio.',
-    imageUrl: '/components/ic-dip8.svg',
+    imageUrl: asset('components/ic-dip8.svg'),
     sourceUrl: 'https://en.wikipedia.org/wiki/LM386',
     location: 'A ranger',
   },
@@ -125,7 +125,7 @@ const researchedComponents = [
     quantity: 1,
     description:
       'Double comparateur de tension a sortie collecteur ouvert. Fonction: detection de seuil, conversion signal analogique vers logique, capteurs et oscillateurs simples.',
-    imageUrl: '/components/ic-dip8.svg',
+    imageUrl: asset('components/ic-dip8.svg'),
     sourceUrl:
       'https://www.adeept.com/adeept-169pcs-21-types-integrated-circuits-chip-assortment-kit-including-opamp-oscillator-pwm-lm324-lm358-lm386-lm393-ne5532-ne555-pc817-ul_p0265.html',
     location: 'A ranger',
@@ -138,7 +138,7 @@ const researchedComponents = [
     quantity: 1,
     description:
       'Double amplificateur operationnel utilisable en alimentation simple. Fonction: amplification de petits signaux, filtrage, adaptation de niveau et interfaces capteurs.',
-    imageUrl: '/components/ic-dip8.svg',
+    imageUrl: asset('components/ic-dip8.svg'),
     sourceUrl:
       'https://www.adeept.com/adeept-169pcs-21-types-integrated-circuits-chip-assortment-kit-including-opamp-oscillator-pwm-lm324-lm358-lm386-lm393-ne5532-ne555-pc817-ul_p0265.html',
     location: 'A ranger',
@@ -151,7 +151,7 @@ const researchedComponents = [
     quantity: 1,
     description:
       'Amplificateur operationnel classique simple. Fonction: amplification analogique generale, montages d apprentissage, filtres et comparateurs simples.',
-    imageUrl: '/components/ic-dip8.svg',
+    imageUrl: asset('components/ic-dip8.svg'),
     sourceUrl:
       'https://www.adeept.com/adeept-169pcs-21-types-integrated-circuits-chip-assortment-kit-including-opamp-oscillator-pwm-lm324-lm358-lm386-lm393-ne5532-ne555-pc817-ul_p0265.html',
     location: 'A ranger',
@@ -164,7 +164,7 @@ const researchedComponents = [
     quantity: 1,
     description:
       'Circuit temporisateur universel. Fonction: temporisations, oscillateurs, generation PWM, clignotants et impulsions monostables/astables.',
-    imageUrl: '/components/ic-dip8.svg',
+    imageUrl: asset('components/ic-dip8.svg'),
     sourceUrl:
       'https://www.adeept.com/adeept-169pcs-21-types-integrated-circuits-chip-assortment-kit-including-opamp-oscillator-pwm-lm324-lm358-lm386-lm393-ne5532-ne555-pc817-ul_p0265.html',
     location: 'A ranger',
@@ -177,7 +177,7 @@ const researchedComponents = [
     quantity: 1,
     description:
       'Double amplificateur operationnel faible bruit pour audio. Fonction: preamplis, filtres audio, buffers et traitement de signal analogique propre.',
-    imageUrl: '/components/ic-dip8.svg',
+    imageUrl: asset('components/ic-dip8.svg'),
     sourceUrl:
       'https://www.adeept.com/adeept-169pcs-21-types-integrated-circuits-chip-assortment-kit-including-opamp-oscillator-pwm-lm324-lm358-lm386-lm393-ne5532-ne555-pc817-ul_p0265.html',
     location: 'A ranger',
@@ -478,8 +478,8 @@ function App() {
     setComponents((current) =>
       editingId
         ? current.map((component) =>
-            component.id === editingId ? cleanedComponent : component,
-          )
+          component.id === editingId ? cleanedComponent : component,
+        )
         : [cleanedComponent, ...current],
     )
     setSelectedId(cleanedComponent.id)
@@ -840,11 +840,10 @@ function ImageView({ src, alt, className }) {
 function IconButton({ children, danger = false, label, onClick }) {
   return (
     <button
-      className={`inline-flex h-10 w-10 items-center justify-center rounded-xl border transition focus:outline-none focus:ring-4 ${
-        danger
+      className={`inline-flex h-10 w-10 items-center justify-center rounded-xl border transition focus:outline-none focus:ring-4 ${danger
           ? 'border-red-100 bg-red-50 text-red-700 hover:bg-red-100 focus:ring-red-100'
           : 'border-slate-200 bg-white text-slate-700 hover:bg-slate-50 focus:ring-sky-100'
-      }`}
+        }`}
       type="button"
       onClick={onClick}
       title={label}
